@@ -107,7 +107,7 @@ SELECT
     Experience,
     City
 FROM RM_Master
-WHERE Gender = 'Female'
+WHERE Gender = 'F'
   AND Experience > 5
 ORDER BY Experience DESC;
 
@@ -122,7 +122,7 @@ SELECT
     Experience,
     City
 FROM RM_Master
-WHERE Gender = 'Male'
+WHERE Gender = 'M'
   AND Experience > 6
 ORDER BY Experience DESC;
 
